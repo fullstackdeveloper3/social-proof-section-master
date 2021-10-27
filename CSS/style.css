@@ -15,7 +15,11 @@ main {
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+}
+@media (max-width: 767px) {
+    .container {
+        overflow: hidden;
+    }
 }
 /* Small */
 @media (min-width: 768px) {
